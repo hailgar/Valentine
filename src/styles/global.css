@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle, #fff5f7 0%, #ffe4e9 100%);
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 192, 203, 0.3);
+}
+
+input:focus, textarea:focus {
+  ring: 2px;
+  ring-color: #ffafcc;
+  outline: none;
+}
